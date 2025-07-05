@@ -1,4 +1,4 @@
-package log4Go
+package fancyLog
 
 import (
 	"log"
