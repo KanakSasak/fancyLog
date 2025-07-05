@@ -27,7 +27,7 @@ import (
 )
 
 func main() {
-    log := log4Go.NewLogger(fancyLog.Info)
+    log := fancyLog.NewLogger(fancyLog.Info)
 
 	log.Log(log4Go.Info, "This is an info message")
 	log.Log(log4Go.Success, "This is a success message")
